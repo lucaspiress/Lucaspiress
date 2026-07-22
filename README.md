@@ -31,7 +31,7 @@
   </a>
 
 <img
- src="https://img.shields.io/badge/PORTFÓLIO-EM_BREVE-0a0a0a?style=for-the-badge&logo=vercel&logoColor=ff2d2d"
+ src="https://img.shields.io/badge/PORTFÓLIO-EM_DESENVOLVIMENTO-0a0a0a?style=for-the-badge&logo=vercel&logoColor=ff2d2d"
  alt="Portfólio em desenvolvimento"
 />
 
@@ -39,38 +39,25 @@
 
 <br />
 
-## `> identity --scan`
+## Sobre mim
 
-Tenho formação técnica em **Informática pelo IFFar** e desenvolvo soluções que combinam **inteligência artificial, automação, desenvolvimento web e infraestrutura**.
+Tenho formação técnica em **Informática pelo IFFar** e experiência com desenvolvimento de sistemas, suporte técnico e infraestrutura.
 
-Meu foco está em transformar problemas reais em aplicações funcionais, documentadas e progressivamente melhores — não apenas concluir cursos ou reproduzir projetos prontos.
+Atualmente, concentro meus estudos e projetos em **inteligência artificial aplicada, automação e desenvolvimento web**, buscando transformar problemas reais em soluções funcionais, bem estruturadas e úteis.
 
-Atualmente, estou construindo produtos próprios, aprofundando conhecimentos em arquitetura de software e utilizando IA como ferramenta de desenvolvimento, análise e automação.
-
-*I have a technical degree in Information Technology from IFFar and develop solutions combining artificial intelligence, automation, web development, and infrastructure.*
-
-```text
-╭────────────────────────────────────────────────────────────╮
-│ LUP://SYSTEM_STATUS                                        │
-├────────────────────────────────────────────────────────────┤
-│ FOCO ATUAL       IA aplicada e automação                   │
-│ CONSTRUINDO      RotaCAD + gestão financeira               │
-│ APROFUNDANDO     arquitetura e produtos digitais           │
-│ PRÓXIMO PASSO    portfólio pessoal                         │
-╰────────────────────────────────────────────────────────────╯
-```
+Meu foco não está apenas em aprender novas ferramentas, mas em utilizá-las para desenvolver produtos, melhorar processos e construir projetos com aplicação prática.
 
 <div align="center">
   <img
     width="100%"
     src="./assets/focus-map.svg"
-    alt="Mapa de atuação: inteligência artificial, desenvolvimento e infraestrutura"
+    alt="Áreas de atuação: inteligência artificial, desenvolvimento e infraestrutura"
   />
 </div>
 
 <br />
 
-## `> stack --list`
+## Tecnologias
 
 <div align="center">
   <img
@@ -81,17 +68,17 @@ Atualmente, estou construindo produtos próprios, aprofundando conhecimentos em 
 
 <br />
 
-| Área                  | Tecnologias e competências                                                      |
-| :-------------------- | :------------------------------------------------------------------------------ |
-| **IA & Automação**    | Python, integração de modelos, engenharia de prompts e automação de processos   |
-| **Front-end**         | React, Next.js, JavaScript, HTML e CSS                                          |
-| **Back-end & Dados**  | Node.js, PHP, APIs, MySQL e modelagem de dados                                  |
-| **Infraestrutura**    | Redes, ambientes, manutenção, suporte técnico e confiabilidade operacional      |
-| **Produtos Digitais** | Análise de problemas, prototipação, testes, documentação e evolução de sistemas |
+| Área                                    | Tecnologias e conhecimentos                                                           |
+| :-------------------------------------- | :------------------------------------------------------------------------------------ |
+| **Inteligência Artificial e Automação** | Python, integração de modelos de IA, engenharia de prompts e automação de processos   |
+| **Front-end**                           | React, Next.js, JavaScript, HTML e CSS                                                |
+| **Back-end e Dados**                    | Node.js, PHP, MySQL, APIs e modelagem de dados                                        |
+| **Infraestrutura**                      | Redes, manutenção de computadores, suporte técnico e ambientes de TI                  |
+| **Desenvolvimento de Produtos**         | Levantamento de requisitos, prototipação, testes, documentação e evolução de sistemas |
 
 <br />
 
-## `> projects --featured`
+## Projetos em desenvolvimento
 
 <table>
   <tr>
@@ -100,34 +87,22 @@ Atualmente, estou construindo produtos próprios, aprofundando conhecimentos em 
 
 ```
   <p>
-    Software técnico em desenvolvimento para criação e edição de plantas,
-    diagramas e projetos de segurança eletrônica.
+    Editor técnico para criação de plantas e diagramas voltados a projetos
+    de segurança eletrônica.
   </p>
 
   <p>
-    O sistema combina edição visual, geometria, organização de equipamentos,
-    documentação técnica, automação e exportação estruturada de projetos.
-  </p>
-
-  <p>
-    <em>
-      Technical software for creating and editing security system plans,
-      diagrams, and structured technical projects.
-    </em>
+    O sistema reúne edição visual, posicionamento de equipamentos,
+    organização de projetos, geração de documentos e recursos de automação.
   </p>
 
   <img
     src="https://img.shields.io/badge/STATUS-EM_DESENVOLVIMENTO-ff2d2d?style=flat-square&labelColor=0a0a0a"
-    alt="Projeto em desenvolvimento"
+    alt="RotaCAD em desenvolvimento"
   />
 
   <img
-    src="https://img.shields.io/badge/FOCO-PRODUTIVIDADE-2b2b2b?style=flat-square&labelColor=0a0a0a"
-    alt="Foco em produtividade"
-  />
-
-  <img
-    src="https://img.shields.io/badge/ÁREA-SOFTWARE_TÉCNICO-2b2b2b?style=flat-square&labelColor=0a0a0a"
+    src="https://img.shields.io/badge/TIPO-SOFTWARE_TÉCNICO-2b2b2b?style=flat-square&labelColor=0a0a0a"
     alt="Software técnico"
   />
 </td>
@@ -136,35 +111,23 @@ Atualmente, estou construindo produtos próprios, aprofundando conhecimentos em 
   <h3>💳 Sistema de Gestão Financeira</h3>
 
   <p>
-    Aplicação em desenvolvimento para organizar receitas, despesas,
-    indicadores e informações financeiras em um ambiente centralizado.
+    Aplicação para centralizar receitas, despesas, indicadores e informações
+    financeiras.
   </p>
 
   <p>
-    O objetivo é transformar registros cotidianos em informações úteis para
-    acompanhamento, organização e tomada de decisões.
-  </p>
-
-  <p>
-    <em>
-      An application that transforms everyday financial data into clear,
-      centralized, and useful information for decision-making.
-    </em>
+    O objetivo é oferecer uma visão mais clara dos dados e apoiar a
+    organização e a tomada de decisões.
   </p>
 
   <img
     src="https://img.shields.io/badge/STATUS-EM_DESENVOLVIMENTO-ff2d2d?style=flat-square&labelColor=0a0a0a"
-    alt="Projeto em desenvolvimento"
+    alt="Sistema de gestão financeira em desenvolvimento"
   />
 
   <img
-    src="https://img.shields.io/badge/FOCO-GESTÃO-2b2b2b?style=flat-square&labelColor=0a0a0a"
-    alt="Foco em gestão"
-  />
-
-  <img
-    src="https://img.shields.io/badge/ÁREA-DADOS_FINANCEIROS-2b2b2b?style=flat-square&labelColor=0a0a0a"
-    alt="Dados financeiros"
+    src="https://img.shields.io/badge/TIPO-GESTÃO_E_DADOS-2b2b2b?style=flat-square&labelColor=0a0a0a"
+    alt="Sistema de gestão e dados"
   />
 </td>
 ```
@@ -172,38 +135,25 @@ Atualmente, estou construindo produtos próprios, aprofundando conhecimentos em 
   </tr>
 </table>
 
-> Alguns projetos permanecem privados por envolverem produtos em desenvolvimento, informações internas ou validações ainda não concluídas. Estudos técnicos e versões públicas serão adicionados progressivamente.
+> Parte dos projetos está em desenvolvimento ou mantida em repositórios privados. Novas versões públicas e estudos técnicos serão adicionados conforme forem concluídos.
 
 <br />
 
-## `> development --principles`
-
-```text
-01. Entender o problema antes de escolher a tecnologia
-02. Construir versões funcionais antes de buscar complexidade
-03. Utilizar IA para ampliar capacidade, não para substituir análise
-04. Documentar decisões, limitações e aprendizados
-05. Tratar segurança, manutenção e confiabilidade como requisitos
-06. Evoluir produtos por meio de testes e uso real
-```
-
-<br />
-
-## `> github --analytics`
+## Estatísticas do GitHub
 
 <div align="center">
   <a href="https://github.com/lucaspiress">
     <img
-      height="180"
-      src="https://github-readme-stats.vercel.app/api?username=lucaspiress&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0a0a0a&title_color=ff2d2d&icon_color=ff2d2d&text_color=e6e6e6&ring_color=ff2d2d&locale=pt-br&cache_seconds=21600"
+      height="175"
+      src="https://github-readme-stats.vercel.app/api?username=lucaspiress&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0a0a0a&title_color=ff2d2d&icon_color=ff2d2d&text_color=e6e6e6&ring_color=ff2d2d&locale=pt-br"
       alt="Estatísticas do GitHub de Lucas Uhlmann Pires"
     />
   </a>
 
   <a href="https://github.com/lucaspiress?tab=repositories">
     <img
-      height="180"
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucaspiress&layout=compact&hide_border=true&bg_color=0a0a0a&title_color=ff2d2d&text_color=e6e6e6&langs_count=8&locale=pt-br&cache_seconds=21600"
+      height="175"
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucaspiress&layout=compact&hide_border=true&bg_color=0a0a0a&title_color=ff2d2d&text_color=e6e6e6&langs_count=8&locale=pt-br"
       alt="Linguagens mais utilizadas nos repositórios de Lucas Uhlmann Pires"
     />
   </a>
@@ -215,8 +165,8 @@ Atualmente, estou construindo produtos próprios, aprofundando conhecimentos em 
   <a href="https://github.com/lucaspiress">
     <img
       width="100%"
-      src="https://github-readme-activity-graph.vercel.app/graph?username=lucaspiress&bg_color=0a0a0a&color=e6e6e6&line=ff2d2d&point=ffffff&area=true&area_color=7a0000&hide_border=true&custom_title=ATIVIDADE%20DE%20DESENVOLVIMENTO"
-      alt="Gráfico de atividade de desenvolvimento de Lucas Uhlmann Pires"
+      src="https://github-readme-activity-graph.vercel.app/graph?username=lucaspiress&bg_color=0a0a0a&color=e6e6e6&line=ff2d2d&point=ffffff&area=true&area_color=7a0000&hide_border=true&custom_title=ATIVIDADE%20NO%20GITHUB"
+      alt="Gráfico de atividade de Lucas Uhlmann Pires"
     />
   </a>
 </div>
@@ -242,43 +192,27 @@ Atualmente, estou construindo produtos próprios, aprofundando conhecimentos em 
 
 <br />
 
-## `> collaboration --status`
-
-Tenho interesse em conexões, projetos e discussões técnicas relacionados a:
-
-* inteligência artificial aplicada;
-* automação de processos;
-* desenvolvimento de aplicações web;
-* infraestrutura e suporte técnico;
-* análise e melhoria de processos;
-* construção de produtos digitais;
-* transformação de problemas operacionais em soluções.
-
-*Open to professional connections and collaborations involving applied AI, process automation, web development, infrastructure, technical support, and digital products.*
-
-<br />
-
-## `> connect --open`
+## Contato
 
 <div align="center">
   <a href="https://www.linkedin.com/in/lucasuhlmann/">
     <img
-      src="https://img.shields.io/badge/LINKEDIN-LUCAS_UHLMANN-ff2d2d?style=for-the-badge&logo=linkedin&logoColor=ffffff&labelColor=0a0a0a"
-      alt="Conectar com Lucas Uhlmann Pires no LinkedIn"
+      src="https://img.shields.io/badge/LinkedIn-Lucas_Uhlmann-ff2d2d?style=for-the-badge&logo=linkedin&logoColor=ffffff&labelColor=0a0a0a"
+      alt="LinkedIn de Lucas Uhlmann Pires"
     />
   </a>
 
   <a href="mailto:uhlmannlucasofc@gmail.com">
     <img
-      src="https://img.shields.io/badge/GMAIL-ENVIAR_MENSAGEM-ff2d2d?style=for-the-badge&logo=gmail&logoColor=ffffff&labelColor=0a0a0a"
-      alt="Enviar mensagem para Lucas Uhlmann Pires"
+      src="https://img.shields.io/badge/Gmail-Enviar_mensagem-ff2d2d?style=for-the-badge&logo=gmail&logoColor=ffffff&labelColor=0a0a0a"
+      alt="Enviar e-mail para Lucas Uhlmann Pires"
     />
   </a>
 
   <a href="https://github.com/lucaspiress">
     <img
-      src="https://img.shields.io/badge/GITHUB-VER_REPOSITÓRIOS-ff2d2d?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=0a0a0a"
-      alt="Ver repositórios de Lucas Uhlmann Pires"
+      src="https://img.shields.io/badge/GitHub-Repositórios-ff2d2d?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=0a0a0a"
+      alt="Repositórios de Lucas Uhlmann Pires"
     />
   </a>
 </div>
@@ -286,9 +220,9 @@ Tenho interesse em conexões, projetos e discussões técnicas relacionados a:
 <br />
 
 <div align="center">
-  <strong>Instagram</strong> — em breve
+  <strong>Instagram:</strong> em breve
   &nbsp;•&nbsp;
-  <strong>Portfólio</strong> — em desenvolvimento
+  <strong>Portfólio:</strong> em desenvolvimento
 </div>
 
 <br />
@@ -302,16 +236,9 @@ Tenho interesse em conexões, projetos e discussões técnicas relacionados a:
 <br /><br />
 
 <img
- width="72"
+ width="64"
  src="./assets/circuit-tree-signature.png"
  alt="Assinatura visual de Lucas Uhlmann Pires"
 />
 
-  <br />
-
-  <sub>
-    <samp>
-      LUP://SYSTEMS · IDEIAS COM RAÍZES, TECNOLOGIA EM EXPANSÃO
-    </samp>
-  </sub>
 </div>
