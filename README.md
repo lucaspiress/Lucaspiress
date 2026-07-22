@@ -1,45 +1,95 @@
 <div align="center">
-  <img width="100%" src="./assets/profile-header.png" alt="Lucas Uhlmann Pires — IA, desenvolvimento full stack e infraestrutura" />
-</div>
-
-<div align="center">
-  <a href="https://github.com/lucaspiress?tab=followers"><img src="https://img.shields.io/github/followers/lucaspiress?style=for-the-badge&logo=github&label=SEGUIR&color=ff2d2d&labelColor=0a0a0a" alt="Seguidores no GitHub" /></a>
-  <img src="https://img.shields.io/badge/PORTFÓLIO-EM_BREVE-0a0a0a?style=for-the-badge&logo=vercel&logoColor=ff2d2d" alt="Portfólio em desenvolvimento" />
+  <img
+    width="100%"
+    src="./assets/profile-header.png"
+    alt="Lucas Uhlmann Pires — Inteligência artificial, desenvolvimento e infraestrutura"
+  />
 </div>
 
 <br />
 
-## `> whoami`
+<div align="center">
+  <a href="https://github.com/lucaspiress?tab=followers">
+    <img
+      src="https://img.shields.io/github/followers/lucaspiress?style=for-the-badge&logo=github&label=SEGUIR&color=ff2d2d&labelColor=0a0a0a"
+      alt="Seguir Lucas Pires no GitHub"
+    />
+  </a>
 
-Sou estudante de **Sistemas de Informação no IFFar**, desenvolvedor de soluções orientadas por IA e analista de infraestrutura. Transformo problemas reais em aplicações completas, combinando automação inteligente, desenvolvimento web e uma base técnica confiável.
+  <a href="https://www.linkedin.com/in/lucasuhlmann/">
+    <img
+      src="https://img.shields.io/badge/LINKEDIN-CONECTAR-ff2d2d?style=for-the-badge&logo=linkedin&logoColor=ffffff&labelColor=0a0a0a"
+      alt="LinkedIn de Lucas Uhlmann Pires"
+    />
+  </a>
 
-_I am an Information Systems student at IFFar, AI solutions developer, and infrastructure analyst. I turn real-world problems into complete applications by combining intelligent automation, web development, and reliable infrastructure._
+  <a href="mailto:uhlmannlucasofc@gmail.com">
+    <img
+      src="https://img.shields.io/badge/EMAIL-CONTATO-ff2d2d?style=for-the-badge&logo=gmail&logoColor=ffffff&labelColor=0a0a0a"
+      alt="Enviar e-mail para Lucas Uhlmann Pires"
+    />
+  </a>
+
+<img
+ src="https://img.shields.io/badge/PORTFÓLIO-EM_BREVE-0a0a0a?style=for-the-badge&logo=vercel&logoColor=ff2d2d"
+ alt="Portfólio em desenvolvimento"
+/>
+
+</div>
+
+<br />
+
+## `> identity --scan`
+
+Tenho formação técnica em **Informática pelo IFFar** e desenvolvo soluções que combinam **inteligência artificial, automação, desenvolvimento web e infraestrutura**.
+
+Meu foco está em transformar problemas reais em aplicações funcionais, documentadas e progressivamente melhores — não apenas concluir cursos ou reproduzir projetos prontos.
+
+Atualmente, estou construindo produtos próprios, aprofundando conhecimentos em arquitetura de software e utilizando IA como ferramenta de desenvolvimento, análise e automação.
+
+*I have a technical degree in Information Technology from IFFar and develop solutions combining artificial intelligence, automation, web development, and infrastructure.*
 
 ```text
-FOCO ATUAL      soluções aplicadas com IA
-CONSTRUINDO     RotaCAD + sistema de gestão financeira
-APRENDENDO      arquitetura, automação e produtos digitais
-PRÓXIMO PASSO   meu portfólio pessoal
+╭────────────────────────────────────────────────────────────╮
+│ LUP://SYSTEM_STATUS                                        │
+├────────────────────────────────────────────────────────────┤
+│ FOCO ATUAL       IA aplicada e automação                   │
+│ CONSTRUINDO      RotaCAD + gestão financeira               │
+│ APROFUNDANDO     arquitetura e produtos digitais           │
+│ PRÓXIMO PASSO    portfólio pessoal                         │
+╰────────────────────────────────────────────────────────────╯
 ```
 
 <div align="center">
-  <img width="100%" src="./assets/focus-map.svg" alt="Mapa de atuação: IA, desenvolvimento full stack e infraestrutura" />
+  <img
+    width="100%"
+    src="./assets/focus-map.svg"
+    alt="Mapa de atuação: inteligência artificial, desenvolvimento e infraestrutura"
+  />
 </div>
+
+<br />
 
 ## `> stack --list`
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,nodejs,react,nextjs,html,css,php,mysql,git&theme=dark&perline=10" alt="Python, JavaScript, Node.js, React, Next.js, HTML, CSS, PHP, MySQL e Git" />
+  <img
+    src="https://skillicons.dev/icons?i=python,js,nodejs,react,nextjs,html,css,php,mysql,git&theme=dark&perline=10"
+    alt="Python, JavaScript, Node.js, React, Next.js, HTML, CSS, PHP, MySQL e Git"
+  />
 </div>
 
 <br />
 
-| Área / Area | Tecnologias / Technologies |
-|:--|:--|
-| **IA & Automação** | Python, integração de modelos e automação de processos |
-| **Front-end** | React, Next.js, JavaScript, HTML e CSS |
-| **Back-end & Dados** | Node.js, PHP e MySQL |
-| **Infraestrutura** | ambientes, redes, suporte e confiabilidade operacional |
+| Área                  | Tecnologias e competências                                                      |
+| :-------------------- | :------------------------------------------------------------------------------ |
+| **IA & Automação**    | Python, integração de modelos, engenharia de prompts e automação de processos   |
+| **Front-end**         | React, Next.js, JavaScript, HTML e CSS                                          |
+| **Back-end & Dados**  | Node.js, PHP, APIs, MySQL e modelagem de dados                                  |
+| **Infraestrutura**    | Redes, ambientes, manutenção, suporte técnico e confiabilidade operacional      |
+| **Produtos Digitais** | Análise de problemas, prototipação, testes, documentação e evolução de sistemas |
+
+<br />
 
 ## `> projects --featured`
 
@@ -47,60 +97,221 @@ PRÓXIMO PASSO   meu portfólio pessoal
   <tr>
     <td width="50%" valign="top">
       <h3>📐 RotaCAD</h3>
-      <p>Software técnico em desenvolvimento para criação e edição de projetos, combinando geometria, automação e uma experiência visual eficiente.</p>
-      <p><em>Technical software for creating and editing projects, combining geometry, automation, and an efficient visual workflow.</em></p>
-      <img src="https://img.shields.io/badge/STATUS-EM_DESENVOLVIMENTO-ff2d2d?style=flat-square&labelColor=0a0a0a" alt="Em desenvolvimento" />
-      <img src="https://img.shields.io/badge/FOCO-PRODUTIVIDADE-2b2b2b?style=flat-square&labelColor=0a0a0a" alt="Produtividade" />
-    </td>
-    <td width="50%" valign="top">
-      <h3>💳 Sistema de Gestão Financeira</h3>
-      <p>Aplicação para organizar receitas, despesas e informações financeiras, transformando dados do dia a dia em uma visão clara para tomada de decisões.</p>
-      <p><em>An application that turns everyday financial data into a clear view for organization and decision-making.</em></p>
-      <img src="https://img.shields.io/badge/STATUS-EM_DESENVOLVIMENTO-ff2d2d?style=flat-square&labelColor=0a0a0a" alt="Em desenvolvimento" />
-      <img src="https://img.shields.io/badge/FOCO-GESTÃO-2b2b2b?style=flat-square&labelColor=0a0a0a" alt="Gestão" />
-    </td>
+
+```
+  <p>
+    Software técnico em desenvolvimento para criação e edição de plantas,
+    diagramas e projetos de segurança eletrônica.
+  </p>
+
+  <p>
+    O sistema combina edição visual, geometria, organização de equipamentos,
+    documentação técnica, automação e exportação estruturada de projetos.
+  </p>
+
+  <p>
+    <em>
+      Technical software for creating and editing security system plans,
+      diagrams, and structured technical projects.
+    </em>
+  </p>
+
+  <img
+    src="https://img.shields.io/badge/STATUS-EM_DESENVOLVIMENTO-ff2d2d?style=flat-square&labelColor=0a0a0a"
+    alt="Projeto em desenvolvimento"
+  />
+
+  <img
+    src="https://img.shields.io/badge/FOCO-PRODUTIVIDADE-2b2b2b?style=flat-square&labelColor=0a0a0a"
+    alt="Foco em produtividade"
+  />
+
+  <img
+    src="https://img.shields.io/badge/ÁREA-SOFTWARE_TÉCNICO-2b2b2b?style=flat-square&labelColor=0a0a0a"
+    alt="Software técnico"
+  />
+</td>
+
+<td width="50%" valign="top">
+  <h3>💳 Sistema de Gestão Financeira</h3>
+
+  <p>
+    Aplicação em desenvolvimento para organizar receitas, despesas,
+    indicadores e informações financeiras em um ambiente centralizado.
+  </p>
+
+  <p>
+    O objetivo é transformar registros cotidianos em informações úteis para
+    acompanhamento, organização e tomada de decisões.
+  </p>
+
+  <p>
+    <em>
+      An application that transforms everyday financial data into clear,
+      centralized, and useful information for decision-making.
+    </em>
+  </p>
+
+  <img
+    src="https://img.shields.io/badge/STATUS-EM_DESENVOLVIMENTO-ff2d2d?style=flat-square&labelColor=0a0a0a"
+    alt="Projeto em desenvolvimento"
+  />
+
+  <img
+    src="https://img.shields.io/badge/FOCO-GESTÃO-2b2b2b?style=flat-square&labelColor=0a0a0a"
+    alt="Foco em gestão"
+  />
+
+  <img
+    src="https://img.shields.io/badge/ÁREA-DADOS_FINANCEIROS-2b2b2b?style=flat-square&labelColor=0a0a0a"
+    alt="Dados financeiros"
+  />
+</td>
+```
+
   </tr>
 </table>
 
-> Alguns projetos ainda estão em desenvolvimento ou mantidos em repositórios privados. Estudos e novas versões públicas serão adicionados em breve.
+> Alguns projetos permanecem privados por envolverem produtos em desenvolvimento, informações internas ou validações ainda não concluídas. Estudos técnicos e versões públicas serão adicionados progressivamente.
 
-## `> github --stats`
+<br />
 
-<div align="center">
-  <img height="175" src="https://github-readme-stats.vercel.app/api?username=lucaspiress&show_icons=true&hide_border=true&bg_color=0a0a0a&title_color=ff2d2d&icon_color=ff2d2d&text_color=e6e6e6&ring_color=ff2d2d&locale=pt-br" alt="Estatísticas do GitHub de Lucas" />
-  <img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucaspiress&layout=compact&hide_border=true&bg_color=0a0a0a&title_color=ff2d2d&text_color=e6e6e6&langs_count=8&locale=pt-br" alt="Linguagens mais usadas por Lucas" />
-</div>
+## `> development --principles`
 
-<div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=lucaspiress&bg_color=0a0a0a&color=e6e6e6&line=ff2d2d&point=ffffff&area=true&area_color=7a0000&hide_border=true&custom_title=ATIVIDADE%20DE%20DESENVOLVIMENTO" alt="Gráfico de atividade de Lucas" />
-</div>
+```text
+01. Entender o problema antes de escolher a tecnologia
+02. Construir versões funcionais antes de buscar complexidade
+03. Utilizar IA para ampliar capacidade, não para substituir análise
+04. Documentar decisões, limitações e aprendizados
+05. Tratar segurança, manutenção e confiabilidade como requisitos
+06. Evoluir produtos por meio de testes e uso real
+```
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lucaspiress/lucaspiress/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lucaspiress/lucaspiress/output/github-contribution-grid-snake.svg" />
-  <img width="100%" alt="Animação das contribuições de Lucas" src="https://raw.githubusercontent.com/lucaspiress/lucaspiress/output/github-contribution-grid-snake-dark.svg" />
-</picture>
+<br />
 
-## `> connect --open`
-
-Estou aberto a colaborar em projetos que envolvam **IA aplicada, automação, desenvolvimento de produtos web e infraestrutura**.
-
-_Open to collaborating on projects involving **applied AI, automation, web product development, and infrastructure**._
+## `> github --analytics`
 
 <div align="center">
-  <a href="https://github.com/lucaspiress">GitHub</a>
-  ·
-  <strong>Portfólio — em desenvolvimento</strong>
-</div>
+  <a href="https://github.com/lucaspiress">
+    <img
+      height="180"
+      src="https://github-readme-stats.vercel.app/api?username=lucaspiress&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0a0a0a&title_color=ff2d2d&icon_color=ff2d2d&text_color=e6e6e6&ring_color=ff2d2d&locale=pt-br&cache_seconds=21600"
+      alt="Estatísticas do GitHub de Lucas Uhlmann Pires"
+    />
+  </a>
 
-<!-- Adicione aqui seus links de LinkedIn, Instagram e e-mail quando estiverem definidos. -->
+  <a href="https://github.com/lucaspiress?tab=repositories">
+    <img
+      height="180"
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucaspiress&layout=compact&hide_border=true&bg_color=0a0a0a&title_color=ff2d2d&text_color=e6e6e6&langs_count=8&locale=pt-br&cache_seconds=21600"
+      alt="Linguagens mais utilizadas nos repositórios de Lucas Uhlmann Pires"
+    />
+  </a>
+</div>
 
 <br />
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=lucaspiress&label=ACESSOS%20AO%20PERFIL&color=ff2d2d&style=flat-square" alt="Contador de visitas do perfil" />
-  <br /><br />
-  <img width="72" src="./assets/circuit-tree-signature.png" alt="Assinatura visual de Lucas Uhlmann Pires" />
+  <a href="https://github.com/lucaspiress">
+    <img
+      width="100%"
+      src="https://github-readme-activity-graph.vercel.app/graph?username=lucaspiress&bg_color=0a0a0a&color=e6e6e6&line=ff2d2d&point=ffffff&area=true&area_color=7a0000&hide_border=true&custom_title=ATIVIDADE%20DE%20DESENVOLVIMENTO"
+      alt="Gráfico de atividade de desenvolvimento de Lucas Uhlmann Pires"
+    />
+  </a>
+</div>
+
+<br />
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/lucaspiress/lucaspiress/output/github-contribution-grid-snake-dark.svg"
+  />
+
+<source
+ media="(prefers-color-scheme: light)"
+ srcset="https://raw.githubusercontent.com/lucaspiress/lucaspiress/output/github-contribution-grid-snake.svg"
+/>
+
+<img
+ width="100%"
+ src="https://raw.githubusercontent.com/lucaspiress/lucaspiress/output/github-contribution-grid-snake-dark.svg"
+ alt="Animação das contribuições de Lucas Uhlmann Pires"
+/> </picture>
+
+<br />
+
+## `> collaboration --status`
+
+Tenho interesse em conexões, projetos e discussões técnicas relacionados a:
+
+* inteligência artificial aplicada;
+* automação de processos;
+* desenvolvimento de aplicações web;
+* infraestrutura e suporte técnico;
+* análise e melhoria de processos;
+* construção de produtos digitais;
+* transformação de problemas operacionais em soluções.
+
+*Open to professional connections and collaborations involving applied AI, process automation, web development, infrastructure, technical support, and digital products.*
+
+<br />
+
+## `> connect --open`
+
+<div align="center">
+  <a href="https://www.linkedin.com/in/lucasuhlmann/">
+    <img
+      src="https://img.shields.io/badge/LINKEDIN-LUCAS_UHLMANN-ff2d2d?style=for-the-badge&logo=linkedin&logoColor=ffffff&labelColor=0a0a0a"
+      alt="Conectar com Lucas Uhlmann Pires no LinkedIn"
+    />
+  </a>
+
+  <a href="mailto:uhlmannlucasofc@gmail.com">
+    <img
+      src="https://img.shields.io/badge/GMAIL-ENVIAR_MENSAGEM-ff2d2d?style=for-the-badge&logo=gmail&logoColor=ffffff&labelColor=0a0a0a"
+      alt="Enviar mensagem para Lucas Uhlmann Pires"
+    />
+  </a>
+
+  <a href="https://github.com/lucaspiress">
+    <img
+      src="https://img.shields.io/badge/GITHUB-VER_REPOSITÓRIOS-ff2d2d?style=for-the-badge&logo=github&logoColor=ffffff&labelColor=0a0a0a"
+      alt="Ver repositórios de Lucas Uhlmann Pires"
+    />
+  </a>
+</div>
+
+<br />
+
+<div align="center">
+  <strong>Instagram</strong> — em breve
+  &nbsp;•&nbsp;
+  <strong>Portfólio</strong> — em desenvolvimento
+</div>
+
+<br />
+
+<div align="center">
+  <img
+    src="https://komarev.com/ghpvc/?username=lucaspiress&label=ACESSOS%20AO%20PERFIL&color=ff2d2d&style=flat-square"
+    alt="Contador de acessos ao perfil"
+  />
+
+<br /><br />
+
+<img
+ width="72"
+ src="./assets/circuit-tree-signature.png"
+ alt="Assinatura visual de Lucas Uhlmann Pires"
+/>
+
   <br />
-  <sub><samp>LUP://SYSTEMS · IDEIAS COM RAÍZES, TECNOLOGIA EM EXPANSÃO</samp></sub>
+
+  <sub>
+    <samp>
+      LUP://SYSTEMS · IDEIAS COM RAÍZES, TECNOLOGIA EM EXPANSÃO
+    </samp>
+  </sub>
 </div>
