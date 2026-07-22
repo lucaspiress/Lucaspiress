@@ -30,11 +30,10 @@
     />
   </a>
 
-<img
- src="https://img.shields.io/badge/PORTFÓLIO-EM_DESENVOLVIMENTO-0a0a0a?style=for-the-badge&logo=vercel&logoColor=ff2d2d"
- alt="Portfólio em desenvolvimento"
-/>
-
+  <img
+    src="https://img.shields.io/badge/PORTFÓLIO-EM_DESENVOLVIMENTO-0a0a0a?style=for-the-badge&logo=vercel&logoColor=ff2d2d"
+    alt="Portfólio em desenvolvimento"
+  />
 </div>
 
 <br />
@@ -68,72 +67,37 @@ Meu foco não está apenas em aprender novas ferramentas, mas em utilizá-las pa
 
 <br />
 
-| Área                                    | Tecnologias e conhecimentos                                                           |
-| :-------------------------------------- | :------------------------------------------------------------------------------------ |
-| **Inteligência Artificial e Automação** | Python, integração de modelos de IA, engenharia de prompts e automação de processos   |
-| **Front-end**                           | React, Next.js, JavaScript, HTML e CSS                                                |
-| **Back-end e Dados**                    | Node.js, PHP, MySQL, APIs e modelagem de dados                                        |
-| **Infraestrutura**                      | Redes, manutenção de computadores, suporte técnico e ambientes de TI                  |
-| **Desenvolvimento de Produtos**         | Levantamento de requisitos, prototipação, testes, documentação e evolução de sistemas |
+| Área | Tecnologias e conhecimentos |
+|:--|:--|
+| **Inteligência Artificial e Automação** | Python, integração de modelos de IA, engenharia de prompts e automação de processos |
+| **Front-end** | React, Next.js, JavaScript, HTML e CSS |
+| **Back-end e Dados** | Node.js, PHP, MySQL, APIs e modelagem de dados |
+| **Infraestrutura** | Redes, manutenção de computadores, suporte técnico e ambientes de TI |
+| **Desenvolvimento de Produtos** | Levantamento de requisitos, prototipação, testes, documentação e evolução de sistemas |
 
 <br />
 
 ## Projetos em desenvolvimento
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>📐 RotaCAD</h3>
+### 📐 RotaCAD
 
-```
-  <p>
-    Editor técnico para criação de plantas e diagramas voltados a projetos
-    de segurança eletrônica.
-  </p>
+Editor técnico para criação de plantas e diagramas voltados a projetos de segurança eletrônica.
 
-  <p>
-    O sistema reúne edição visual, posicionamento de equipamentos,
-    organização de projetos, geração de documentos e recursos de automação.
-  </p>
+O sistema reúne edição visual, posicionamento de equipamentos, organização de projetos, geração de documentos e recursos de automação.
 
-  <img
-    src="https://img.shields.io/badge/STATUS-EM_DESENVOLVIMENTO-ff2d2d?style=flat-square&labelColor=0a0a0a"
-    alt="RotaCAD em desenvolvimento"
-  />
+![Status do RotaCAD](https://img.shields.io/badge/STATUS-EM_DESENVOLVIMENTO-ff2d2d?style=flat-square&labelColor=0a0a0a)
+![Tipo do RotaCAD](https://img.shields.io/badge/TIPO-SOFTWARE_TÉCNICO-2b2b2b?style=flat-square&labelColor=0a0a0a)
 
-  <img
-    src="https://img.shields.io/badge/TIPO-SOFTWARE_TÉCNICO-2b2b2b?style=flat-square&labelColor=0a0a0a"
-    alt="Software técnico"
-  />
-</td>
+---
 
-<td width="50%" valign="top">
-  <h3>💳 Sistema de Gestão Financeira</h3>
+### 💳 Sistema de Gestão Financeira
 
-  <p>
-    Aplicação para centralizar receitas, despesas, indicadores e informações
-    financeiras.
-  </p>
+Aplicação para centralizar receitas, despesas, indicadores e informações financeiras.
 
-  <p>
-    O objetivo é oferecer uma visão mais clara dos dados e apoiar a
-    organização e a tomada de decisões.
-  </p>
+O objetivo é oferecer uma visão mais clara dos dados e apoiar a organização e a tomada de decisões.
 
-  <img
-    src="https://img.shields.io/badge/STATUS-EM_DESENVOLVIMENTO-ff2d2d?style=flat-square&labelColor=0a0a0a"
-    alt="Sistema de gestão financeira em desenvolvimento"
-  />
-
-  <img
-    src="https://img.shields.io/badge/TIPO-GESTÃO_E_DADOS-2b2b2b?style=flat-square&labelColor=0a0a0a"
-    alt="Sistema de gestão e dados"
-  />
-</td>
-```
-
-  </tr>
-</table>
+![Status do sistema financeiro](https://img.shields.io/badge/STATUS-EM_DESENVOLVIMENTO-ff2d2d?style=flat-square&labelColor=0a0a0a)
+![Tipo do sistema financeiro](https://img.shields.io/badge/TIPO-GESTÃO_E_DADOS-2b2b2b?style=flat-square&labelColor=0a0a0a)
 
 > Parte dos projetos está em desenvolvimento ou mantida em repositórios privados. Novas versões públicas e estudos técnicos serão adicionados conforme forem concluídos.
 
@@ -142,33 +106,27 @@ Meu foco não está apenas em aprender novas ferramentas, mas em utilizá-las pa
 ## Estatísticas do GitHub
 
 <div align="center">
-  <a href="https://github.com/lucaspiress">
-    <img
-      height="175"
-      src="https://github-readme-stats.vercel.app/api?username=lucaspiress&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0a0a0a&title_color=ff2d2d&icon_color=ff2d2d&text_color=e6e6e6&ring_color=ff2d2d&locale=pt-br"
-      alt="Estatísticas do GitHub de Lucas Uhlmann Pires"
-    />
-  </a>
+  <img
+    width="49%"
+    src="./profile/stats.svg"
+    alt="Estatísticas do GitHub de Lucas Uhlmann Pires"
+  />
 
-  <a href="https://github.com/lucaspiress?tab=repositories">
-    <img
-      height="175"
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucaspiress&layout=compact&hide_border=true&bg_color=0a0a0a&title_color=ff2d2d&text_color=e6e6e6&langs_count=8&locale=pt-br"
-      alt="Linguagens mais utilizadas nos repositórios de Lucas Uhlmann Pires"
-    />
-  </a>
+  <img
+    width="49%"
+    src="./profile/top-langs.svg"
+    alt="Linguagens mais utilizadas nos repositórios de Lucas Uhlmann Pires"
+  />
 </div>
 
 <br />
 
 <div align="center">
-  <a href="https://github.com/lucaspiress">
-    <img
-      width="100%"
-      src="https://github-readme-activity-graph.vercel.app/graph?username=lucaspiress&bg_color=0a0a0a&color=e6e6e6&line=ff2d2d&point=ffffff&area=true&area_color=7a0000&hide_border=true&custom_title=ATIVIDADE%20NO%20GITHUB"
-      alt="Gráfico de atividade de Lucas Uhlmann Pires"
-    />
-  </a>
+  <img
+    width="100%"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=lucaspiress&bg_color=0a0a0a&color=e6e6e6&line=ff2d2d&point=ffffff&area=true&area_color=7a0000&hide_border=true&custom_title=ATIVIDADE%20NO%20GITHUB"
+    alt="Gráfico de atividade de Lucas Uhlmann Pires"
+  />
 </div>
 
 <br />
@@ -179,16 +137,17 @@ Meu foco não está apenas em aprender novas ferramentas, mas em utilizá-las pa
     srcset="https://raw.githubusercontent.com/lucaspiress/lucaspiress/output/github-contribution-grid-snake-dark.svg"
   />
 
-<source
- media="(prefers-color-scheme: light)"
- srcset="https://raw.githubusercontent.com/lucaspiress/lucaspiress/output/github-contribution-grid-snake.svg"
-/>
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/lucaspiress/lucaspiress/output/github-contribution-grid-snake.svg"
+  />
 
-<img
- width="100%"
- src="https://raw.githubusercontent.com/lucaspiress/lucaspiress/output/github-contribution-grid-snake-dark.svg"
- alt="Animação das contribuições de Lucas Uhlmann Pires"
-/> </picture>
+  <img
+    width="100%"
+    src="https://raw.githubusercontent.com/lucaspiress/lucaspiress/output/github-contribution-grid-snake-dark.svg"
+    alt="Animação das contribuições de Lucas Uhlmann Pires"
+  />
+</picture>
 
 <br />
 
@@ -233,12 +192,11 @@ Meu foco não está apenas em aprender novas ferramentas, mas em utilizá-las pa
     alt="Contador de acessos ao perfil"
   />
 
-<br /><br />
+  <br /><br />
 
-<img
- width="64"
- src="./assets/circuit-tree-signature.png"
- alt="Assinatura visual de Lucas Uhlmann Pires"
-/>
-
+  <img
+    width="64"
+    src="./assets/circuit-tree-signature.png"
+    alt="Assinatura visual de Lucas Uhlmann Pires"
+  />
 </div>
