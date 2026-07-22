@@ -1,15 +1,74 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="500"
+  height="195"
+  viewBox="0 0 500 195"
+  role="img"
+  aria-label="Estatísticas do GitHub de Lucas Uhlmann Pires"
+>
+  <rect
+    width="499"
+    height="194"
+    x="0.5"
+    y="0.5"
+    rx="8"
+    fill="#0a0a0a"
+    stroke="#2b2b2b"
+  />
 
-    <svg width="576.5"  height="120" viewBox="0 0 576.5 120" fill="#fffefe" xmlns="http://www.w3.org/2000/svg">
-    <style>
-    .text { font: 600 16px 'Segoe UI', Ubuntu, Sans-Serif; fill: #2f80ed }
-    .small { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #434d58 }
-    .gray { fill: #858585 }
-    </style>
-    <rect x="0.5" y="0.5" width="575.5" height="99%" rx="4.5" fill="#fffefe" stroke="#e4e2e2"/>
-    <text x="25" y="45" class="text">Something went wrong! file an issue at https://tinyurl.com/github-stats</text>
-    <text data-testid="message" x="25" y="55" class="text small">
-      <tspan x="25" dy="18">Resource not accessible by integration</tspan>
-      <tspan x="25" dy="18" class="gray">OK</tspan>
-    </text>
-    </svg>
-  
+  <style>
+    .title {
+      font: 700 22px -apple-system, BlinkMacSystemFont,
+        "Segoe UI", sans-serif;
+      fill: #ff2d2d;
+    }
+
+    .label {
+      font: 600 13px -apple-system, BlinkMacSystemFont,
+        "Segoe UI", sans-serif;
+      fill: #a3a3a3;
+    }
+
+    .value {
+      font: 700 27px -apple-system, BlinkMacSystemFont,
+        "Segoe UI", sans-serif;
+      fill: #e6e6e6;
+    }
+  </style>
+
+  <text x="28" y="38" class="title">
+    Estatísticas do GitHub
+  </text>
+
+  <text x="28" y="82" class="label">
+    REPOSITÓRIOS PÚBLICOS
+  </text>
+
+  <text x="28" y="112" class="value">
+    2
+  </text>
+
+  <text x="270" y="82" class="label">
+    SEGUIDORES
+  </text>
+
+  <text x="270" y="112" class="value">
+    0
+  </text>
+
+  <text x="28" y="145" class="label">
+    ESTRELAS RECEBIDAS
+  </text>
+
+  <text x="28" y="175" class="value">
+    0
+  </text>
+
+  <text x="270" y="145" class="label">
+    FORKS
+  </text>
+
+  <text x="270" y="175" class="value">
+    0
+  </text>
+</svg>
