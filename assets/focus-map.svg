@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa de atuação profissional</title>
+  <desc id="desc">IA aplicada, desenvolvimento full stack e infraestrutura convergem em soluções funcionais</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#070707"/><stop offset=".5" stop-color="#100606"/><stop offset="1" stop-color="#070707"/>
+    </linearGradient>
+    <filter id="glow2" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="270" rx="8" fill="url(#bg2)" stroke="#2a2a2a"/>
+  <g fill="none" stroke="#ff2d2d" stroke-width="2" opacity=".6">
+    <path d="M270 135H474"/><path d="M726 135H930"/>
+  </g>
+  <g fill="#ff2d2d" filter="url(#glow2)">
+    <circle cx="375" cy="135" r="4"/><circle cx="825" cy="135" r="4"/>
+  </g>
+  <g font-family="Consolas, Menlo, Monaco, monospace">
+    <g transform="translate(50 67)">
+      <rect width="220" height="136" rx="6" fill="#0c0c0c" stroke="#353535"/>
+      <text x="22" y="34" fill="#ff2d2d" font-size="12" letter-spacing="2">01 / INTELLIGENCE</text>
+      <text x="22" y="75" fill="#f1f1f1" font-size="23" font-weight="700">IA APLICADA</text>
+      <text x="22" y="104" fill="#888" font-size="13">automação · modelos</text>
+      <text x="22" y="123" fill="#888" font-size="13">integrações · agentes</text>
+    </g>
+    <g transform="translate(474 47)">
+      <rect width="252" height="176" rx="6" fill="#ff2d2d"/>
+      <text x="24" y="38" fill="#4b0000" font-size="12" font-weight="700" letter-spacing="2">CORE OUTPUT</text>
+      <text x="24" y="82" fill="#080808" font-size="25" font-weight="700">SOLUÇÕES</text>
+      <text x="24" y="112" fill="#080808" font-size="25" font-weight="700">FUNCIONAIS</text>
+      <path d="M24 132h204" stroke="#8f0909"/>
+      <text x="24" y="157" fill="#530000" font-size="12" font-weight="700">PROBLEMA → PRODUTO</text>
+    </g>
+    <g transform="translate(930 67)">
+      <rect width="220" height="136" rx="6" fill="#0c0c0c" stroke="#353535"/>
+      <text x="22" y="34" fill="#ff2d2d" font-size="12" letter-spacing="2">03 / FOUNDATION</text>
+      <text x="22" y="75" fill="#f1f1f1" font-size="21" font-weight="700">INFRAESTRUTURA</text>
+      <text x="22" y="104" fill="#888" font-size="13">ambientes · redes</text>
+      <text x="22" y="123" fill="#888" font-size="13">suporte · confiabilidade</text>
+    </g>
+    <g transform="translate(316 19)">
+      <text x="0" y="18" fill="#777" font-size="12" letter-spacing="2">02 / FULL-STACK ENGINEERING</text>
+    </g>
+    <text x="600" y="253" text-anchor="middle" fill="#555" font-size="10" letter-spacing="3">BUILDING SYSTEMS THAT MOVE FROM IDEA TO OPERATION</text>
+  </g>
+</svg>

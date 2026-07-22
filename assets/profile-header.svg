@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Lucas Uhlmann Pires</title>
+  <desc id="desc">Desenvolvedor de soluções orientadas por IA e analista de infraestrutura</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050505"/>
+      <stop offset="0.62" stop-color="#0a0a0a"/>
+      <stop offset="1" stop-color="#190202"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7a0000"/>
+      <stop offset="0.5" stop-color="#ff2d2d"/>
+      <stop offset="1" stop-color="#7a0000"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#ff2d2d" stroke-opacity=".075" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect x="22" y="22" width="1156" height="316" rx="6"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="360" rx="8" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="8" fill="url(#grid)"/>
+  <g clip-path="url(#frame)">
+    <path d="M760 -40L1160 360H820L560 100Z" fill="#ff2d2d" opacity=".035"/>
+    <path d="M940 -40L1200 220V360h-60L740 -40Z" fill="#ff2d2d" opacity=".025"/>
+    <rect x="0" y="34" width="1200" height="1" fill="#ff2d2d" opacity=".7">
+      <animate attributeName="y" values="34;326;34" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;.55;0" dur="9s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <path d="M22 78V28a6 6 0 016-6h72M1100 22h72a6 6 0 016 6v50M1178 282v50a6 6 0 01-6 6h-72M100 338H28a6 6 0 01-6-6v-50" fill="none" stroke="#ff2d2d" stroke-width="2"/>
+
+  <g font-family="Consolas, Menlo, Monaco, monospace">
+    <text x="60" y="69" fill="#ff2d2d" font-size="15" letter-spacing="3">LUP://PROFILE.SYSTEM</text>
+    <circle cx="1084" cy="62" r="5" fill="#ff2d2d" filter="url(#glow)">
+      <animate attributeName="opacity" values="1;.18;1" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="1100" y="67" fill="#a7a7a7" font-size="12" letter-spacing="2">ONLINE</text>
+
+    <text x="60" y="160" fill="#f5f5f5" font-size="54" font-weight="700" letter-spacing="2">LUCAS UHLMANN PIRES</text>
+    <rect x="60" y="184" width="590" height="3" fill="url(#red)"/>
+    <text x="60" y="224" fill="#d6d6d6" font-size="18" letter-spacing="1.8">AI SOLUTIONS DEVELOPER  /  INFRASTRUCTURE ANALYST</text>
+
+    <g transform="translate(60 270)">
+      <rect width="167" height="34" rx="3" fill="#ff2d2d"/>
+      <text x="16" y="23" fill="#080808" font-size="13" font-weight="700" letter-spacing="1">APPLIED AI</text>
+      <rect x="179" width="170" height="34" rx="3" fill="#111" stroke="#3a3a3a"/>
+      <text x="195" y="23" fill="#d9d9d9" font-size="13" letter-spacing="1">FULL STACK</text>
+      <rect x="361" width="190" height="34" rx="3" fill="#111" stroke="#3a3a3a"/>
+      <text x="377" y="23" fill="#d9d9d9" font-size="13" letter-spacing="1">INFRASTRUCTURE</text>
+    </g>
+
+    <text x="1038" y="316" fill="#666" font-size="11" letter-spacing="2">BR / 2026</text>
+  </g>
+</svg>
