@@ -1,8 +1,3 @@
-<!--
-  README de perfil — Lucas Uhlmann Pires
-  Antes de publicar, substitua os 3 links marcados com "ALTERAR".
--->
-
 <div align="center">
   <img width="190" src="./assets/circuit-tree-signature.png" alt="Símbolo profissional de Lucas Uhlmann Pires: árvore formada por circuitos" />
   <br />
