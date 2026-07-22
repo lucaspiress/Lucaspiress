@@ -1,13 +1,5 @@
 <div align="center">
-  <img width="190" src="./assets/circuit-tree-signature.png" alt="Símbolo profissional de Lucas Uhlmann Pires: árvore formada por circuitos" />
-  <br />
-  <samp>ROOTED IN SYSTEMS · BUILT TO EVOLVE</samp>
-</div>
-
-<br />
-
-<div align="center">
-  <img width="100%" src="./assets/profile-header.svg" alt="Lucas Uhlmann Pires — IA, desenvolvimento full stack e infraestrutura" />
+  <img width="100%" src="./assets/profile-header.png" alt="Lucas Uhlmann Pires — IA, desenvolvimento full stack e infraestrutura" />
 </div>
 
 <div align="center">
