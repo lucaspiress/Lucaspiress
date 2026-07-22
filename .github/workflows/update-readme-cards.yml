@@ -14,29 +14,304 @@ jobs:
 
     steps:
       - name: Baixar repositório
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
 
-      - name: Gerar card de estatísticas
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: stats
-          options: 'username=lucaspiress&show_icons=true'
-          path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Gerar cards localmente
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: lucaspiress
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import urllib.request
+          from html import escape
+          from pathlib import Path
 
-      - name: Gerar card de linguagens
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: top-langs
-          options: 'username=lucaspiress&layout=compact&langs_count=6'
-          path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          user = os.environ["GH_USER"]
+          token = os.environ["GH_TOKEN"]
+
+          headers = {
+              "Accept": "application/vnd.github+json",
+              "Authorization": f"Bearer {token}",
+              "X-GitHub-Api-Version": "2022-11-28",
+              "User-Agent": "lucaspiress-profile"
+          }
+
+          def github_api(url):
+              request = urllib.request.Request(url, headers=headers)
+
+              with urllib.request.urlopen(request, timeout=30) as response:
+                  return json.load(response)
+
+          profile = github_api(
+              f"https://api.github.com/users/{user}"
+          )
+
+          repositories = github_api(
+              f"https://api.github.com/users/{user}/repos"
+              "?per_page=100&type=owner&sort=updated"
+          )
+
+          repositories = [
+              repository
+              for repository in repositories
+              if not repository.get("fork")
+          ]
+
+          total_stars = sum(
+              repository.get("stargazers_count", 0)
+              for repository in repositories
+          )
+
+          total_forks = sum(
+              repository.get("forks_count", 0)
+              for repository in repositories
+          )
+
+          languages = {}
+
+          for repository in repositories:
+              try:
+                  repository_languages = github_api(
+                      repository["languages_url"]
+                  )
+              except Exception:
+                  continue
+
+              for language, amount in repository_languages.items():
+                  languages[language] = (
+                      languages.get(language, 0) + amount
+                  )
+
+          output_directory = Path("profile")
+          output_directory.mkdir(parents=True, exist_ok=True)
+
+          background = "#0a0a0a"
+          border = "#2b2b2b"
+          accent = "#ff2d2d"
+          text = "#e6e6e6"
+          muted = "#a3a3a3"
+
+          stats_svg = f"""
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="500"
+            height="195"
+            viewBox="0 0 500 195"
+            role="img"
+            aria-label="Estatísticas do GitHub de Lucas Uhlmann Pires"
+          >
+            <rect
+              width="499"
+              height="194"
+              x="0.5"
+              y="0.5"
+              rx="8"
+              fill="{background}"
+              stroke="{border}"
+            />
+
+            <style>
+              .title {{
+                font: 700 22px -apple-system, BlinkMacSystemFont,
+                  "Segoe UI", sans-serif;
+                fill: {accent};
+              }}
+
+              .label {{
+                font: 600 13px -apple-system, BlinkMacSystemFont,
+                  "Segoe UI", sans-serif;
+                fill: {muted};
+              }}
+
+              .value {{
+                font: 700 27px -apple-system, BlinkMacSystemFont,
+                  "Segoe UI", sans-serif;
+                fill: {text};
+              }}
+            </style>
+
+            <text x="28" y="38" class="title">
+              Estatísticas do GitHub
+            </text>
+
+            <text x="28" y="82" class="label">
+              REPOSITÓRIOS PÚBLICOS
+            </text>
+
+            <text x="28" y="112" class="value">
+              {profile.get("public_repos", 0)}
+            </text>
+
+            <text x="270" y="82" class="label">
+              SEGUIDORES
+            </text>
+
+            <text x="270" y="112" class="value">
+              {profile.get("followers", 0)}
+            </text>
+
+            <text x="28" y="145" class="label">
+              ESTRELAS RECEBIDAS
+            </text>
+
+            <text x="28" y="175" class="value">
+              {total_stars}
+            </text>
+
+            <text x="270" y="145" class="label">
+              FORKS
+            </text>
+
+            <text x="270" y="175" class="value">
+              {total_forks}
+            </text>
+          </svg>
+          """
+
+          (output_directory / "stats.svg").write_text(
+              stats_svg.strip(),
+              encoding="utf-8"
+          )
+
+          ranked_languages = sorted(
+              languages.items(),
+              key=lambda item: item[1],
+              reverse=True
+          )[:6]
+
+          total_language_bytes = (
+              sum(value for _, value in ranked_languages) or 1
+          )
+
+          language_rows = []
+          current_y = 72
+
+          for language, value in ranked_languages:
+              percentage = value / total_language_bytes * 100
+              bar_width = max(2, percentage * 3.7)
+
+              language_rows.append(
+                  f"""
+                  <text x="28" y="{current_y}" class="language">
+                    {escape(language)}
+                  </text>
+
+                  <text
+                    x="470"
+                    y="{current_y}"
+                    text-anchor="end"
+                    class="percentage"
+                  >
+                    {percentage:.1f}%
+                  </text>
+
+                  <rect
+                    x="28"
+                    y="{current_y + 10}"
+                    width="370"
+                    height="8"
+                    rx="4"
+                    fill="#242424"
+                  />
+
+                  <rect
+                    x="28"
+                    y="{current_y + 10}"
+                    width="{bar_width:.1f}"
+                    height="8"
+                    rx="4"
+                    fill="{accent}"
+                  />
+                  """
+              )
+
+              current_y += 39
+
+          if not ranked_languages:
+              language_rows.append(
+                  """
+                  <text x="28" y="90" class="language">
+                    Nenhum dado público de linguagens disponível.
+                  </text>
+                  """
+              )
+
+          card_height = max(
+              150,
+              65 + len(ranked_languages) * 39
+          )
+
+          languages_svg = f"""
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="500"
+            height="{card_height}"
+            viewBox="0 0 500 {card_height}"
+            role="img"
+            aria-label="Linguagens mais usadas por Lucas Uhlmann Pires"
+          >
+            <rect
+              width="499"
+              height="{card_height - 1}"
+              x="0.5"
+              y="0.5"
+              rx="8"
+              fill="{background}"
+              stroke="{border}"
+            />
+
+            <style>
+              .title {{
+                font: 700 22px -apple-system, BlinkMacSystemFont,
+                  "Segoe UI", sans-serif;
+                fill: {accent};
+              }}
+
+              .language {{
+                font: 600 14px -apple-system, BlinkMacSystemFont,
+                  "Segoe UI", sans-serif;
+                fill: {text};
+              }}
+
+              .percentage {{
+                font: 500 13px -apple-system, BlinkMacSystemFont,
+                  "Segoe UI", sans-serif;
+                fill: {muted};
+              }}
+            </style>
+
+            <text x="28" y="38" class="title">
+              Linguagens mais usadas
+            </text>
+
+            {"".join(language_rows)}
+          </svg>
+          """
+
+          (output_directory / "top-langs.svg").write_text(
+              languages_svg.strip(),
+              encoding="utf-8"
+          )
+
+          print("Cards gerados com sucesso.")
+          print(f"Repositórios analisados: {len(repositories)}")
+          print(f"Linguagens encontradas: {len(languages)}")
+          PY
 
       - name: Salvar cards no repositório
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add profile/stats.svg profile/top-langs.svg
-          git diff --cached --quiet && exit 0
-          git commit -m "fix: corrigir cards de estatísticas"
+
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração nos cards."
+            exit 0
+          fi
+
+          git commit -m "chore: atualizar cards do perfil"
           git push
