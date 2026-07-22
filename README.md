@@ -108,13 +108,13 @@ O objetivo é oferecer uma visão mais clara dos dados e apoiar a organização 
 <div align="center">
   <img
     width="49%"
-    src="./profile/stats.svg"
+    src="./profile/stats.svg?v=2"
     alt="Estatísticas do GitHub de Lucas Uhlmann Pires"
   />
 
   <img
     width="49%"
-    src="./profile/top-langs.svg"
+    src="./profile/top-langs.svg?v=2"
     alt="Linguagens mais utilizadas nos repositórios de Lucas Uhlmann Pires"
   />
 </div>
