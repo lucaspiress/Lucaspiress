@@ -106,7 +106,17 @@ O objetivo é oferecer uma visão mais clara dos dados e apoiar a organização 
 ## Estatísticas do GitHub
 
 <div align="center">
-  <img width="47%" src="https://raw.githubusercontent.com/lucaspiress/Lucaspiress/main/profile/stats.svg?version=5" alt="Estatísticas do GitHub de Lucas Uhlmann Pires" /><img width="47%" src="https://raw.githubusercontent.com/lucaspiress/Lucaspiress/main/profile/top-langs.svg?version=5" alt="Linguagens mais utilizadas nos repositórios de Lucas Uhlmann Pires" />
+  <img
+    width="46%"
+    src="https://raw.githubusercontent.com/lucaspiress/Lucaspiress/main/profile/stats.svg?version=6"
+    alt="Estatísticas do GitHub de Lucas Uhlmann Pires"
+  />
+  &nbsp;&nbsp;&nbsp;
+  <img
+    width="46%"
+    src="https://raw.githubusercontent.com/lucaspiress/Lucaspiress/main/profile/top-langs.svg?version=6"
+    alt="Linguagens mais utilizadas nos repositórios de Lucas Uhlmann Pires"
+  />
 </div>
 
 <br />
