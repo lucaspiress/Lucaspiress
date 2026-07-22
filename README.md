@@ -101,20 +101,18 @@ O objetivo é oferecer uma visão mais clara dos dados e apoiar a organização 
 
 > Parte dos projetos está em desenvolvimento ou mantida em repositórios privados. Novas versões públicas e estudos técnicos serão adicionados conforme forem concluídos.
 
-<br />
-
 ## Estatísticas do GitHub
 
 <div align="center">
   <img
     width="49%"
-    src="./profile/stats.svg?v=2"
+    src="https://raw.githubusercontent.com/lucaspiress/Lucaspiress/main/profile/stats.svg?version=3"
     alt="Estatísticas do GitHub de Lucas Uhlmann Pires"
   />
 
   <img
     width="49%"
-    src="./profile/top-langs.svg?v=2"
+    src="https://raw.githubusercontent.com/lucaspiress/Lucaspiress/main/profile/top-langs.svg?version=3"
     alt="Linguagens mais utilizadas nos repositórios de Lucas Uhlmann Pires"
   />
 </div>
@@ -134,22 +132,20 @@ O objetivo é oferecer uma visão mais clara dos dados e apoiar a organização 
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/lucaspiress/lucaspiress/output/github-contribution-grid-snake-dark.svg"
+    srcset="https://raw.githubusercontent.com/lucaspiress/Lucaspiress/output/github-contribution-grid-snake-dark.svg"
   />
 
   <source
     media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/lucaspiress/lucaspiress/output/github-contribution-grid-snake.svg"
+    srcset="https://raw.githubusercontent.com/lucaspiress/Lucaspiress/output/github-contribution-grid-snake.svg"
   />
 
   <img
     width="100%"
-    src="https://raw.githubusercontent.com/lucaspiress/lucaspiress/output/github-contribution-grid-snake-dark.svg"
+    src="https://raw.githubusercontent.com/lucaspiress/Lucaspiress/output/github-contribution-grid-snake-dark.svg"
     alt="Animação das contribuições de Lucas Uhlmann Pires"
   />
 </picture>
-
-<br />
 
 ## Contato
 
