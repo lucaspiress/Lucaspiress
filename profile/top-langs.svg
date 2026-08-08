@@ -1,14 +1,14 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
   width="500"
-  height="150"
-  viewBox="0 0 500 150"
+  height="260"
+  viewBox="0 0 500 260"
   role="img"
   aria-label="Linguagens mais usadas por Lucas Uhlmann Pires"
 >
   <rect
     width="499"
-    height="149"
+    height="259"
     x="0.5"
     y="0.5"
     rx="8"
@@ -41,8 +41,159 @@
   </text>
 
   
-        <text x="28" y="90" class="language">
-          Nenhum dado público de linguagens disponível.
+        <text x="28" y="72" class="language">
+          Python
         </text>
+
+        <text
+          x="470"
+          y="72"
+          text-anchor="end"
+          class="percentage"
+        >
+          69.7%
+        </text>
+
+        <rect
+          x="28"
+          y="82"
+          width="370"
+          height="8"
+          rx="4"
+          fill="#242424"
+        />
+
+        <rect
+          x="28"
+          y="82"
+          width="257.8"
+          height="8"
+          rx="4"
+          fill="#ff2d2d"
+        />
+        
+        <text x="28" y="111" class="language">
+          TypeScript
+        </text>
+
+        <text
+          x="470"
+          y="111"
+          text-anchor="end"
+          class="percentage"
+        >
+          28.6%
+        </text>
+
+        <rect
+          x="28"
+          y="121"
+          width="370"
+          height="8"
+          rx="4"
+          fill="#242424"
+        />
+
+        <rect
+          x="28"
+          y="121"
+          width="106.0"
+          height="8"
+          rx="4"
+          fill="#ff2d2d"
+        />
+        
+        <text x="28" y="150" class="language">
+          CSS
+        </text>
+
+        <text
+          x="470"
+          y="150"
+          text-anchor="end"
+          class="percentage"
+        >
+          1.4%
+        </text>
+
+        <rect
+          x="28"
+          y="160"
+          width="370"
+          height="8"
+          rx="4"
+          fill="#242424"
+        />
+
+        <rect
+          x="28"
+          y="160"
+          width="5.2"
+          height="8"
+          rx="4"
+          fill="#ff2d2d"
+        />
+        
+        <text x="28" y="189" class="language">
+          HTML
+        </text>
+
+        <text
+          x="470"
+          y="189"
+          text-anchor="end"
+          class="percentage"
+        >
+          0.2%
+        </text>
+
+        <rect
+          x="28"
+          y="199"
+          width="370"
+          height="8"
+          rx="4"
+          fill="#242424"
+        />
+
+        <rect
+          x="28"
+          y="199"
+          width="2.0"
+          height="8"
+          rx="4"
+          fill="#ff2d2d"
+        />
+        
+        <text x="28" y="228" class="language">
+          Dockerfile
+        </text>
+
+        <text
+          x="470"
+          y="228"
+          text-anchor="end"
+          class="percentage"
+        >
+          0.1%
+        </text>
+
+        <rect
+          x="28"
+          y="238"
+          width="370"
+          height="8"
+          rx="4"
+          fill="#242424"
+        />
+
+        <rect
+          x="28"
+          y="238"
+          width="2.0"
+          height="8"
+          rx="4"
+          fill="#ff2d2d"
+        />
         
 </svg>
