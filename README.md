@@ -99,6 +99,13 @@ O objetivo é oferecer uma visão mais clara dos dados e apoiar a organização 
 ![Status do sistema financeiro](https://img.shields.io/badge/STATUS-EM_DESENVOLVIMENTO-ff2d2d?style=flat-square&labelColor=0a0a0a)
 ![Tipo do sistema financeiro](https://img.shields.io/badge/TIPO-GESTÃO_E_DADOS-2b2b2b?style=flat-square&labelColor=0a0a0a)
 
+### 📊 Custo Dashboard
+
+Dashboard para análise de custos de projetos, com indicadores, relatórios e persistência por projeto.
+
+![Status do Custo Dashboard](https://img.shields.io/badge/STATUS-EM_DESENVOLVIMENTO-ff2d2d?style=flat-square&labelColor=0a0a0a)
+![Tipo do Custo Dashboard](https://img.shields.io/badge/TIPO-ANÁLISE_DE_CUSTOS-2b2b2b?style=flat-square&labelColor=0a0a0a)
+
 > Parte dos projetos está em desenvolvimento ou mantida em repositórios privados. Novas versões públicas e estudos técnicos serão adicionados conforme forem concluídos.
 
 <br />
