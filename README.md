@@ -2,164 +2,62 @@
   <img width="100%" src="./assets/profile-header.svg" alt="Lucas Uhlmann Pires — Full-stack developer com foco em desenvolvimento web, IA e automação" />
 </p>
 
-## 01 / SYSTEM.PROFILE
+<p align="center">
+  <strong>Full-stack developer construindo produtos web, automações e sistemas de IA aplicados a problemas reais.</strong><br />
+  São Borja, RS · Brazil<br /><br />
+  <a href="https://github.com/lucaspiress">GitHub</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/lucasuhlmann/">LinkedIn</a>
+</p>
 
-```text
-lucaspiress@github:~$ ./profile --boot
+<br />
 
-SYSTEM      PROFILE
-SUBJECT     Lucas Uhlmann Pires
-ROLE        Full-stack Developer
-LOCATION    São Borja, RS · Brazil
-FOCUS       Web Development · AI · Automation
-STATUS      Building · Learning · Shipping
-```
+## RotaCAD
 
-> systems online
-
-Técnico em Informática pelo IFFar e desenvolvedor full-stack.
-
-Construo aplicações web, automações e sistemas orientados a problemas reais — da interface e modelagem de dados até APIs, testes, documentação e infraestrutura.
-
-```text
-OPERATING.PRINCIPLES
-
-[01] ship useful things
-[02] automate repetitive work
-[03] keep systems understandable
-[04] test what matters
-[05] document decisions
-```
-
-## 02 / FEATURED.SYSTEMS
-
-### [01] RotaCAD // PRIMARY SYSTEM
-
-```text
-STATUS      ● ACTIVE
-CLASS       FEATURED / PRIVATE
-TYPE        Technical design system
-DOMAIN      Electronic security projects
-```
+<p align="center">
+  <img width="100%" src="./assets/rotacad-panel.svg" alt="RotaCAD — sistema técnico privado e em desenvolvimento para projetos de segurança eletrônica" />
+</p>
 
 Editor técnico para criação de plantas e diagramas voltados a projetos de segurança eletrônica.
 
-O sistema transforma um fluxo técnico tradicional em uma experiência visual estruturada, com edição de planta, equipamentos, persistência de projetos e geração de documentos.
+O sistema reúne edição visual, posicionamento de equipamentos, organização de projetos, geração de documentos e automações.
 
-```text
-CORE.MODULES
-├── Visual editor
-├── Technical components
-├── Project persistence
-├── PDF generation
-└── Automation
-```
+<sub>Private repository · Active development</sub>
 
-### [02] [Custo Dashboard](https://github.com/lucaspiress/custo-dashboard)
+<br />
 
-```text
-STATUS      ● SHIPPED
-TYPE        Cost management platform
-STACK       React · TypeScript · FastAPI · Neon Postgres
-```
+## Other builds
 
-Plataforma para organização e análise de custos de projetos, com dados isolados por projeto, planilhas, indicadores e dashboards.
+### [Custo Dashboard](https://github.com/lucaspiress/custo-dashboard)
 
-```text
-MODULES
-├── React frontend
-├── FastAPI backend
-├── PostgreSQL persistence
-├── Dashboard builder
-└── Automated persistence
-```
+Dashboard para análise e gerenciamento de custos de projetos.
 
-### [03] Sistema de Gestão Financeira
+<sub>React · TypeScript · FastAPI · Python · Neon Postgres</sub>
 
-```text
-STATUS      ● IN DEVELOPMENT
-TYPE        Personal finance platform
-FOCUS       Cash flow · Indicators · Organization
-ACCESS      No public repository linked
-```
+### Sistema de Gestão Financeira
 
-Aplicação para centralizar receitas, despesas, indicadores e informações financeiras em uma única interface.
+Aplicação em desenvolvimento para centralizar receitas, despesas, indicadores e informações financeiras.
 
-## 03 / STACK.INSPECT
+<br />
 
-```text
-lucaspiress@github:~$ stack --inspect
+## Platform toolkit
 
-FRONTEND
-├── React
-├── Next.js
-├── TypeScript
-├── JavaScript
-├── HTML
-└── CSS
+<p align="center">
+  <img width="100%" src="./assets/toolkit-panel.svg" alt="Platform toolkit: frontend, backend, data, IA e automação, e engenharia" />
+</p>
 
-BACKEND
-├── Python
-├── FastAPI
-├── Node.js
-├── PHP
-└── REST APIs
+<br />
 
-DATA
-├── PostgreSQL
-├── Neon
-├── MySQL
-└── Data modeling
+## Activity
 
-AUTOMATION
-├── Python
-├── AI model integration
-├── Prompt engineering
-└── Process automation
+<p align="center">
+  <img width="100%" src="./assets/activity-chart.svg" alt="Atividade pública recente no GitHub" />
+</p>
 
-ENGINEERING
-├── Git
-├── GitHub Actions
-├── Testing
-├── Documentation
-└── Requirements
-```
+<br />
 
-## 04 / BUILD.SIGNAL
-
-```text
-lucaspiress@github:~$ telemetry --stream build.signal
-```
-
-![BUILD SIGNAL — telemetria de contribuições públicas das últimas 12 semanas](./assets/activity-chart.svg)
-
-## 05 / SYSTEM.STATUS
-
-```text
-SYSTEM STATUS
-────────────────────────────────────
-
-PROJECTS      ● ACTIVE
-LEARNING      ● CONTINUOUS
-AUTOMATION    ● ENABLED
-SHIPPING      ● ENABLED
-
-HEALTH        ALL SYSTEMS OPERATIONAL
-```
-
-```text
-CURRENT OBJECTIVE
-
-Build products that are useful,
-understandable and capable of evolving.
-```
-
-## 06 / NETWORK
-
-[`> github.connect()`](https://github.com/lucaspiress)
-
-[`> linkedin.connect()`](https://www.linkedin.com/in/lucasuhlmann/)
-
-```text
-lucaspiress@github:~$ _
-```
+<p align="center">
+  <a href="https://github.com/lucaspiress">GitHub</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/lucasuhlmann/">LinkedIn</a>
+</p>

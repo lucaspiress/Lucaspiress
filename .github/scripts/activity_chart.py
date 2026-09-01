@@ -7,12 +7,13 @@ from pathlib import Path
 
 
 def render_chart(week_counts, generated_on):
-    chart_width = 1200
-    baseline = 174
-    chart_height = 96
-    left = 72
-    available_width = 940
-    gap = 16
+    chart_width = 720
+    chart_svg_height = 184
+    baseline = 132
+    chart_height = 76
+    left = 40
+    available_width = 584
+    gap = 10
     count = max(len(week_counts), 1)
     bar_width = (available_width - gap * (count - 1)) / count
     maximum = max(week_counts, default=0) or 1
@@ -34,7 +35,7 @@ def render_chart(week_counts, generated_on):
             f'<circle class="signal-node" cx="{center:.1f}" cy="{y:.1f}" r="3.5" />'
         )
 
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{chart_width}" height="220" viewBox="0 0 {chart_width} 220" role="img" aria-labelledby="title description">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{chart_width}" height="{chart_svg_height}" viewBox="0 0 {chart_width} {chart_svg_height}" role="img" aria-labelledby="title description">
   <title id="title">Recent public contribution build signal</title>
   <desc id="description">A twelve-week telemetry chart of public GitHub contributions, last synchronized {escape(generated_on.isoformat())}.</desc>
   <defs>
@@ -43,26 +44,27 @@ def render_chart(week_counts, generated_on):
       <stop offset="1" stop-color="#9e2020" />
     </linearGradient>
   </defs>
-  <rect width="1200" height="220" rx="8" fill="#0d1117" stroke="#30363d" />
+  <rect width="720" height="184" rx="14" fill="#0d1117" stroke="#30363d" />
   <g stroke="#30363d" stroke-width="1">
-    <path d="M72 110H1012" opacity="0.38" />
-    <path d="M72 142H1012" opacity="0.58" />
-    <path d="M72 174H1128" />
+    <path d="M40 82H624" opacity="0.3" />
+    <path d="M40 107H624" opacity="0.48" />
+    <path d="M40 132H680" />
   </g>
-  <text x="72" y="42" fill="#f0f6fc" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" font-weight="700">BUILD SIGNAL / TELEMETRY</text>
-  <text x="72" y="66" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">12 WEEK ACTIVITY  //  PUBLIC CONTRIBUTIONS</text>
-  <text x="72" y="198" fill="#6e7681" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10">LAST SYNC UTC: {escape(generated_on.isoformat())}</text>
+  <text x="40" y="38" fill="#f0f6fc" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="28" font-weight="700">ACTIVITY</text>
+  <text x="40" y="62" fill="#aeb6c1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20" letter-spacing="1.2">12 WEEKS</text>
+  <text x="40" y="164" fill="#aeb6c1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">12 WEEKS AGO</text>
+  <text x="624" y="164" text-anchor="end" fill="#aeb6c1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">NOW</text>
   <g fill="url(#signalFill)" opacity="0.88">{''.join(bars)}</g>
   <polyline class="signal-line" points="{' '.join(points)}" fill="none" stroke="#ff7070" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
   <g fill="#ff8585" stroke="#0d1117" stroke-width="2">{''.join(nodes)}</g>
   <g class="circuit-signature" fill="none" stroke="#ff4d4d" stroke-opacity="0.4" stroke-width="1.2" stroke-linecap="square">
-    <path d="M1062 62H1100V82H1128" />
-    <path d="M1062 104H1090V84H1128" />
-    <path d="M1108 54V116" />
-    <path d="M1078 85H1138" />
-    <circle cx="1108" cy="54" r="2" fill="#ff4d4d" />
-    <circle cx="1138" cy="85" r="2" fill="#ff4d4d" />
-    <circle cx="1108" cy="116" r="2" fill="#ff4d4d" />
+    <path d="M648 48H670V68H688" />
+    <path d="M648 92H664V70H688" />
+    <path d="M676 40V100" />
+    <path d="M654 70H698" />
+    <circle cx="676" cy="40" r="2.5" fill="#ff4d4d" />
+    <circle cx="698" cy="70" r="2.5" fill="#ff4d4d" />
+    <circle cx="676" cy="100" r="2.5" fill="#ff4d4d" />
   </g>
 </svg>'''
 
