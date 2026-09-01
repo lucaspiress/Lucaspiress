@@ -2,55 +2,164 @@
   <img width="100%" src="./assets/profile-header.svg" alt="Lucas Uhlmann Pires — Full-stack developer com foco em desenvolvimento web, IA e automação" />
 </p>
 
-# Lucas Pires
+## 01 / SYSTEM.PROFILE
 
-Full-stack developer em São Borja, RS, Brazil. Desenvolvo aplicações web e automações com foco em resolver problemas reais de forma clara, prática e sustentável.
+```text
+lucaspiress@github:~$ ./profile --boot
 
-Técnico em Informática pelo IFFar. Meus focos atuais são desenvolvimento web, IA e automação.
+SYSTEM      PROFILE
+SUBJECT     Lucas Uhlmann Pires
+ROLE        Full-stack Developer
+LOCATION    São Borja, RS · Brazil
+FOCUS       Web Development · AI · Automation
+STATUS      Building · Learning · Shipping
+```
 
-## About me
+> systems online
 
-Gosto de transformar necessidades operacionais em produtos utilizáveis: da organização do problema à interface, dados, automações e documentação que sustentam a evolução do sistema.
+Técnico em Informática pelo IFFar e desenvolvedor full-stack.
 
-### Operating principles
+Construo aplicações web, automações e sistemas orientados a problemas reais — da interface e modelagem de dados até APIs, testes, documentação e infraestrutura.
 
-- Construir soluções funcionais antes de adicionar complexidade.
-- Usar automação para reduzir trabalho repetitivo e aumentar a consistência.
-- Tratar requisitos, testes e documentação como parte do produto.
+```text
+OPERATING.PRINCIPLES
 
-## Featured projects
+[01] ship useful things
+[02] automate repetitive work
+[03] keep systems understandable
+[04] test what matters
+[05] document decisions
+```
 
-### RotaCAD
+## 02 / FEATURED.SYSTEMS
 
-Editor técnico para criação de plantas e diagramas voltados a projetos de segurança eletrônica. Reúne edição visual, posicionamento de equipamentos, organização de projetos, geração de documentos e automações para tornar projetos técnicos mais rápidos e padronizados.
+### [01] RotaCAD // PRIMARY SYSTEM
 
-_Projeto em desenvolvimento; o repositório pode ser privado._
+```text
+STATUS      ● ACTIVE
+CLASS       FEATURED / PRIVATE
+TYPE        Technical design system
+DOMAIN      Electronic security projects
+```
 
-### [Custo Dashboard](https://github.com/lucaspiress/custo-dashboard)
+Editor técnico para criação de plantas e diagramas voltados a projetos de segurança eletrônica.
 
-Dashboard para análise e gerenciamento de custos de projetos, construído com React, FastAPI e Neon Postgres.
+O sistema transforma um fluxo técnico tradicional em uma experiência visual estruturada, com edição de planta, equipamentos, persistência de projetos e geração de documentos.
 
-### Sistema de Gestão Financeira
+```text
+CORE.MODULES
+├── Visual editor
+├── Technical components
+├── Project persistence
+├── PDF generation
+└── Automation
+```
 
-Aplicação para centralizar receitas, despesas, indicadores e informações financeiras.
+### [02] [Custo Dashboard](https://github.com/lucaspiress/custo-dashboard)
 
-_Projeto em desenvolvimento; sem repositório público vinculado._
+```text
+STATUS      ● SHIPPED
+TYPE        Cost management platform
+STACK       React · TypeScript · FastAPI · Neon Postgres
+```
 
-## Toolkit
+Plataforma para organização e análise de custos de projetos, com dados isolados por projeto, planilhas, indicadores e dashboards.
 
-| Área | Tecnologias e práticas |
-| :-- | :-- |
-| Front-end | React, Next.js, JavaScript, HTML e CSS |
-| Back-end | Node.js, PHP, FastAPI e APIs |
-| Data | MySQL, Neon Postgres e modelagem de dados |
-| AI & Automation | Python, integração de modelos de IA, engenharia de prompts e automação de processos |
-| Infrastructure | Git, ambientes, redes e suporte técnico |
-| Product Development | Requisitos, prototipação, testes, documentação e evolução de sistemas |
+```text
+MODULES
+├── React frontend
+├── FastAPI backend
+├── PostgreSQL persistence
+├── Dashboard builder
+└── Automated persistence
+```
 
-## Activity
+### [03] Sistema de Gestão Financeira
 
-![Gráfico semanal de contribuições públicas recentes](./assets/activity-chart.svg)
+```text
+STATUS      ● IN DEVELOPMENT
+TYPE        Personal finance platform
+FOCUS       Cash flow · Indicators · Organization
+ACCESS      No public repository linked
+```
 
-## Contact
+Aplicação para centralizar receitas, despesas, indicadores e informações financeiras em uma única interface.
 
-[GitHub](https://github.com/lucaspiress) · [LinkedIn](https://www.linkedin.com/in/lucasuhlmann/)
+## 03 / STACK.INSPECT
+
+```text
+lucaspiress@github:~$ stack --inspect
+
+FRONTEND
+├── React
+├── Next.js
+├── TypeScript
+├── JavaScript
+├── HTML
+└── CSS
+
+BACKEND
+├── Python
+├── FastAPI
+├── Node.js
+├── PHP
+└── REST APIs
+
+DATA
+├── PostgreSQL
+├── Neon
+├── MySQL
+└── Data modeling
+
+AUTOMATION
+├── Python
+├── AI model integration
+├── Prompt engineering
+└── Process automation
+
+ENGINEERING
+├── Git
+├── GitHub Actions
+├── Testing
+├── Documentation
+└── Requirements
+```
+
+## 04 / BUILD.SIGNAL
+
+```text
+lucaspiress@github:~$ telemetry --stream build.signal
+```
+
+![BUILD SIGNAL — telemetria de contribuições públicas das últimas 12 semanas](./assets/activity-chart.svg)
+
+## 05 / SYSTEM.STATUS
+
+```text
+SYSTEM STATUS
+────────────────────────────────────
+
+PROJECTS      ● ACTIVE
+LEARNING      ● CONTINUOUS
+AUTOMATION    ● ENABLED
+SHIPPING      ● ENABLED
+
+HEALTH        ALL SYSTEMS OPERATIONAL
+```
+
+```text
+CURRENT OBJECTIVE
+
+Build products that are useful,
+understandable and capable of evolving.
+```
+
+## 06 / NETWORK
+
+[`> github.connect()`](https://github.com/lucaspiress)
+
+[`> linkedin.connect()`](https://www.linkedin.com/in/lucasuhlmann/)
+
+```text
+lucaspiress@github:~$ _
+```
