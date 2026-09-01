@@ -12,17 +12,19 @@
 
 <br />
 
-## RotaCAD
+## 🛡️ RotaCAD
 
 <p align="center">
   <img width="100%" src="./assets/rotacad-panel.svg" alt="RotaCAD — sistema técnico privado e em desenvolvimento para projetos de segurança eletrônica" />
 </p>
 
-Editor técnico para criação de plantas e diagramas voltados a projetos de segurança eletrônica.
+### Do desenho ao documento técnico
 
-O sistema reúne edição visual, posicionamento de equipamentos, organização de projetos, geração de documentos e automações.
+**Editor visual para criação de plantas, posicionamento de equipamentos e documentação técnica.**
 
-<sub>Private repository · Active development</sub>
+Do desenho ao PDF, o RotaCAD organiza o fluxo de projeto em uma única plataforma.
+
+**🔒 Repositório privado** · **⚙️ Desenvolvimento ativo**
 
 <br />
 
