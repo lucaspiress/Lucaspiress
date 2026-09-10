@@ -42,7 +42,7 @@
 
   
         <text x="28" y="72" class="language">
-          Python
+          TypeScript
         </text>
 
         <text
@@ -51,7 +51,7 @@
           text-anchor="end"
           class="percentage"
         >
-          42.9%
+          46.9%
         </text>
 
         <rect
@@ -66,14 +66,14 @@
         <rect
           x="28"
           y="82"
-          width="158.8"
+          width="173.5"
           height="8"
           rx="4"
           fill="#ff2d2d"
         />
         
         <text x="28" y="111" class="language">
-          TypeScript
+          Python
         </text>
 
         <text
@@ -82,7 +82,7 @@
           text-anchor="end"
           class="percentage"
         >
-          41.0%
+          39.7%
         </text>
 
         <rect
@@ -97,7 +97,7 @@
         <rect
           x="28"
           y="121"
-          width="151.8"
+          width="146.9"
           height="8"
           rx="4"
           fill="#ff2d2d"
@@ -113,7 +113,7 @@
           text-anchor="end"
           class="percentage"
         >
-          10.4%
+          8.6%
         </text>
 
         <rect
@@ -128,7 +128,7 @@
         <rect
           x="28"
           y="160"
-          width="38.4"
+          width="32.0"
           height="8"
           rx="4"
           fill="#ff2d2d"
@@ -144,7 +144,7 @@
           text-anchor="end"
           class="percentage"
         >
-          3.8%
+          3.2%
         </text>
 
         <rect
@@ -159,7 +159,7 @@
         <rect
           x="28"
           y="199"
-          width="14.1"
+          width="11.8"
           height="8"
           rx="4"
           fill="#ff2d2d"
@@ -175,7 +175,7 @@
           text-anchor="end"
           class="percentage"
         >
-          1.8%
+          1.6%
         </text>
 
         <rect
@@ -190,7 +190,7 @@
         <rect
           x="28"
           y="238"
-          width="6.7"
+          width="5.8"
           height="8"
           rx="4"
           fill="#ff2d2d"
